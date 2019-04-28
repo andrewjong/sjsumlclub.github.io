@@ -15,7 +15,7 @@
 	<!-- meta character set -->
 	<meta charset="UTF-8">
 	<!-- Site Title -->
-	<title>SJSU ML clue IS amazing!</title>
+	<title>SJSU Machine Learning Club</title>
 
 	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
 	<!--
@@ -43,14 +43,13 @@
 						</h3>
 					</div>
 					<div class="main-menubar d-flex align-items-center">
-						<nav class="hide">
+						<nav>
 							<a href="#mission">Mission</a>
-							<a href="#advisors">Advisors</a>
 							<a href="#team">Members</a>
-							<a href="#projects">Projects</a>
-							<a href="#consultant">Schedule</a>
+							<a href="#activities">Activities</a>
+							<a href="#schedule">Schedule</a>
 						</nav>
-						<div class="menu-bar"><span class="lnr lnr-menu"></span></div>
+						<!-- <div class="menu-bar"><span class="lnr lnr-menu"></span></div> -->
 					</div>
 				</div>
 			</div>
@@ -64,12 +63,13 @@
 			<div class="row fullscreen align-items-center justify-content-center">
 				<div class="banner-content col-lg-6 col-md-12">
 					<h1 class="text-uppercase"> Our mission </h1>
-					<p>
-						Our club's goal is the promotion and growth of machine learning at San Jose State University.
-						We are a melting pot of students with common interests in ML, and provide a place for collaboration
-						and growth. Our members benefit from new knowledge that will aid both their future industry
-						prospects and other career-enabling skills.
-					</p>
+					<ol style="font-size:1.2em">
+						<li> To promote machine learning growth at SJSU; </li>
+						<li> To enhance students with career-enabling skills; </li>
+						<li> To connect students with a common interest in machine learning who wish to collaborate; </li>
+						<li> To promote diversity in machine learning. </li>
+
+					</ol>
 				</div>
 				<div class="col-lg-6 d-flex align-self-end img-right">
 					<img class="img-fluid" src="img/1200px-SJSU_Seal.svg.png" alt="">
@@ -79,30 +79,7 @@
 	</section>
 	<!-- End mission Area -->
 
-	<!-- Start advisors Area -->
-	<section class="advisors-area" id="advisors" style="background-color:#F3EAF4">
-		<!-- Header -->
-		<h1 class="text-center py-5 mb-4">Our Advisors</h1>
 
-		<!-- Page Content -->
-		<div class="container" >
-			<!-- Row 1 -->
-			<div class="row">
-				<!-- Advisor 1 -->
-				<div class="col-xl-3 col-md-6 mb-4">
-					<div class="card border-0 shadow">
-						<img src="img/profile/empty.png" class="card-img-top" alt="...">
-						<div class="card-body text-center">
-							<h5 class="card-title mb-0">Fabio Di Troia</h5>
-							<div class="card-text text-black-50">Advisor</div>
-						</div>
-					</div>
-				</div>
-			<!-- /.row -->
-		</div>
-		<!-- /.container -->
-	</section>
-	
 	<!-- Start Meet our members Area -->
 	<section class="meet-team-area" id="team" style="background-color:#F3EAF4">
 		<!-- Header -->
@@ -111,13 +88,33 @@
 
 
 		<!-- Page Content -->
-		<div class="container" >
+		<div class="container">
 			<!-- Row 1 -->
 			<div class="row">
+				<!-- Advisor 1 -->
+				<div class="col-xl-3 col-md-6 mb-4">
+					<div class="card border-0 shadow">
+						<img src="img/profile/fabio_di_troia.jpg" class="card-img-top" alt="...">
+						<div class="card-body text-center">
+							<h5 class="card-title mb-0">Fabio Di Troia</h5>
+							<div class="card-text text-black-50">Professor and Advisor</div>
+						</div>
+					</div>
+				</div>
+				<!-- Advisor 2 -->
+				<div class="col-xl-3 col-md-6 mb-4">
+					<div class="card border-0 shadow">
+						<img src="img/profile/empty.png" class="card-img-top" alt="...">
+						<div class="card-body text-center">
+							<h5 class="card-title mb-0">Teng-Sheng Moh</h5>
+							<div class="card-text text-black-50">Professor and Advisor</div>
+						</div>
+					</div>
+				</div>
 				<!-- Team Member 1 -->
 				<div class="col-xl-3 col-md-6 mb-4">
 					<div class="card border-0 shadow">
-						<img src="img/profile/andrew_jong.jpeg" class="card-img-top" alt="...">
+						<img src="img/profile/andrew_jong.png" class="card-img-top" alt="...">
 						<div class="card-body text-center">
 							<h5 class="card-title mb-0">Andrew Jong</h5>
 							<div class="card-text text-black-50">President</div>
@@ -134,13 +131,18 @@
 						</div>
 					</div>
 				</div>
+			</div>
+			<!-- /.row -->
+
+			<!-- Row 2 -->
+			<div class="row">
 				<!-- Team Member 3 -->
 				<div class="col-xl-3 col-md-6 mb-4">
 					<div class="card border-0 shadow">
 						<img src="img/profile/empty.png" class="card-img-top" alt="...">
 						<div class="card-body text-center">
 							<h5 class="card-title mb-0">Ai-Linh Alten</h5>
-							<div class="card-text text-black-50">TBD</div>
+							<div class="card-text text-black-50">Workshops</div>
 						</div>
 					</div>
 				</div>
@@ -150,115 +152,90 @@
 						<img src="img/profile/empty.png" class="card-img-top" alt="...">
 						<div class="card-body text-center">
 							<h5 class="card-title mb-0">Dylan Wang</h5>
-							<div class="card-text text-black-50">TBD</div>
+							<div class="card-text text-black-50">Workshops</div>
+						</div>
+					</div>
+				</div>
+				<!-- Team Member 5 -->
+				<div class="col-xl-3 col-md-6 mb-4">
+					<div class="card border-0 shadow">
+						<img src="img/profile/empty.png" class="card-img-top" alt="...">
+						<div class="card-body text-center">
+							<h5 class="card-title mb-0">Evan Ugarte</h5>
+							<div class="card-text text-black-50">Workshops</div>
+						</div>
+					</div>
+				</div>
+				<!-- Team Member 6 -->
+				<div class="col-xl-3 col-md-6 mb-4">
+					<div class="card border-0 shadow">
+						<img src="img/profile/empty.png" class="card-img-top" alt="...">
+						<div class="card-body text-center">
+							<h5 class="card-title mb-0">Jason Do</h5>
+							<div class="card-text text-black-50">Workshops</div>
 						</div>
 					</div>
 				</div>
 			</div>
 			<!-- /.row -->
 
-			<!-- Row 2 -->
+			<!-- Row 3 -->
 			<div class="row">
-					<!-- Team Member 5 -->
-					<div class="col-xl-3 col-md-6 mb-4">
-						<div class="card border-0 shadow">
-							<img src="img/profile/empty.png" class="card-img-top" alt="...">
-							<div class="card-body text-center">
-								<h5 class="card-title mb-0">Evan Ugarte</h5>
-								<div class="card-text text-black-50">TBD</div>
-							</div>
-						</div>
-					</div>
-					<!-- Team Member 6 -->
-					<div class="col-xl-3 col-md-6 mb-4">
-						<div class="card border-0 shadow">
-							<img src="img/profile/empty.png" class="card-img-top" alt="...">
-							<div class="card-body text-center">
-								<h5 class="card-title mb-0">Jason Do</h5>
-								<div class="card-text text-black-50">TBD</div>
-							</div>
-						</div>
-					</div>
-					<!-- Team Member 7 -->
-					<div class="col-xl-3 col-md-6 mb-4">
-						<div class="card border-0 shadow">
-							<img src="img/profile/empty.png" class="card-img-top" alt="...">
-							<div class="card-body text-center">
-								<h5 class="card-title mb-0">Jason Jiang</h5>
-								<div class="card-text text-black-50">TBD</div>
-							</div>
-						</div>
-					</div>
-					<!-- Team Member 8 -->
-					<div class="col-xl-3 col-md-6 mb-4">
-						<div class="card border-0 shadow">
-							<img src="img/profile/empty.png" class="card-img-top" alt="...">
-							<div class="card-body text-center">
-								<h5 class="card-title mb-0">Jonathon Wong</h5>
-								<div class="card-text text-black-50">TBD</div>
-							</div>
+				<!-- Team Member 7 -->
+				<div class="col-xl-3 col-md-6 mb-4">
+					<div class="card border-0 shadow">
+						<img src="img/profile/empty.png" class="card-img-top" alt="...">
+						<div class="card-body text-center">
+							<h5 class="card-title mb-0">Jason Jiang</h5>
+							<div class="card-text text-black-50">Workshops</div>
 						</div>
 					</div>
 				</div>
-				<!-- /.row -->
-
-				<!-- Row 3 -->
-			<div class="row">
-					<!-- Team Member 9 -->
-					<div class="col-xl-3 col-md-6 mb-4">
-						<div class="card border-0 shadow">
-							<img src="img/profile/empty.png" class="card-img-top" alt="...">
-							<div class="card-body text-center">
-								<h5 class="card-title mb-0">Rui Yang</h5>
-								<div class="card-text text-black-50">TBD</div>
-							</div>
-						</div>
-					</div>
-					<!-- Team Member 10 -->
-					<div class="col-xl-3 col-md-6 mb-4">
-						<div class="card border-0 shadow">
-							<img src="img/profile/empty.png" class="card-img-top" alt="...">
-							<div class="card-body text-center">
-								<h5 class="card-title mb-0">Sagar Shahi</h5>
-								<div class="card-text text-black-50">TBD</div>
-							</div>
-						</div>
-					</div>
-					<!-- Team Member 11 -->
-					<div class="col-xl-3 col-md-6 mb-4">
-						<div class="card border-0 shadow">
-							<img src="img/profile/empty.png" class="card-img-top" alt="...">
-							<div class="card-body text-center">
-								<h5 class="card-title mb-0">Samuel Boulanger</h5>
-								<div class="card-text text-black-50">TBD</div>
-							</div>
-						</div>
-					</div>
-					<!-- Team Member 12 -->
-					<div class="col-xl-3 col-md-6 mb-4">
-						<div class="card border-0 shadow">
-							<img src="img/profile/empty.png" class="card-img-top" alt="...">
-							<div class="card-body text-center">
-								<h5 class="card-title mb-0"></h5>
-								<div class="card-text text-black-50"></div>
-							</div>
+				<!-- Team Member 9 -->
+				<div class="col-xl-3 col-md-6 mb-4">
+					<div class="card border-0 shadow">
+						<img src="img/profile/empty.png" class="card-img-top" alt="...">
+						<div class="card-body text-center">
+							<h5 class="card-title mb-0">Rui Yang</h5>
+							<div class="card-text text-black-50">Web Master, Workshops</div>
 						</div>
 					</div>
 				</div>
-				<!-- /.row -->
+				<!-- Team Member 10 -->
+				<div class="col-xl-3 col-md-6 mb-4">
+					<div class="card border-0 shadow">
+						<img src="img/profile/empty.png" class="card-img-top" alt="...">
+						<div class="card-body text-center">
+							<h5 class="card-title mb-0">Sagar Shahi</h5>
+							<div class="card-text text-black-50">Workshops</div>
+						</div>
+					</div>
+				</div>
+				<!-- Team Member 11 -->
+				<div class="col-xl-3 col-md-6 mb-4">
+					<div class="card border-0 shadow">
+						<img src="img/profile/empty.png" class="card-img-top" alt="...">
+						<div class="card-body text-center">
+							<h5 class="card-title mb-0">Samuel Boulanger</h5>
+							<div class="card-text text-black-50">Workshops</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /.row -->
 
 
 		</div>
 		<!-- /.container -->
 	</section>
 
-		<!-- Start project Area -->
-	<section class="feature-area section-gap" id="projects">
+	<!-- Start project Area -->
+	<section class="feature-area section-gap" id="activities">
 
 		<div class="container">
 			<div class="row">
 				<h1 class="projectHed">
-					Projects we did
+					Club Activities
 				</h1>
 			</div>
 			<div class="row">
@@ -270,9 +247,7 @@
 						<div class="desc">
 							<h4 class="text-uppercase">Project #1</h4>
 							<p>
-								inappropriate behavior is often laughed off as “boys will be boys,” <br> women face
-								higher conduct women
-								face higher conduct.
+								Coming soon
 							</p>
 						</div>
 					</div>
@@ -283,9 +258,7 @@
 						<div class="desc">
 							<h4 class="text-uppercase">Project #1</h4>
 							<p>
-								inappropriate behavior is often laughed off as “boys will be boys,” <br> women face
-								higher conduct women
-								face higher conduct.
+								Coming soon
 							</p>
 						</div>
 					</div>
@@ -296,9 +269,7 @@
 						<div class="desc">
 							<h4 class="text-uppercase">Project #1</h4>
 							<p>
-								inappropriate behavior is often laughed off as “boys will be boys,” <br> women face
-								higher conduct women
-								face higher conduct.
+								Coming soon
 							</p>
 						</div>
 					</div>
@@ -311,40 +282,60 @@
 						<div class="desc">
 							<h4 class="text-uppercase">Project #1</h4>
 							<p>
-								inappropriate behavior is often laughed off as “boys will be boys,” <br> women face
-								higher conduct women
-								face higher conduct.
+								Coming soon
 							</p>
 						</div>
 					</div>
 					<div class="single-feature d-flex flex-row pb-30">
 						<div class="icon">
-							<span class="lnr lnr-paw"></span>
+							<span class="lnr lnr-heart-pulse"></span>
 						</div>
 						<div class="desc">
-							<h4 class="text-uppercase">Project #2</h4>
+							<h4 class="text-uppercase">Project #1</h4>
 							<p>
-								inappropriate behavior is often laughed off as “boys will be boys,” <br> women face
-								higher conduct women
-								face higher conduct.
+								Coming soon
 							</p>
 						</div>
 					</div>
-					<div class="single-feature d-flex flex-row">
+					<div class="single-feature d-flex flex-row pb-30">
 						<div class="icon">
-							<span class="lnr lnr-users"></span>
+							<span class="lnr lnr-heart-pulse"></span>
 						</div>
 						<div class="desc">
-							<h4 class="text-uppercase">Project #3</h4>
+							<h4 class="text-uppercase">Project #1</h4>
 							<p>
-								inappropriate behavior is often laughed off as “boys will be boys,” <br> women face
-								higher conduct women
-								face higher conduct.
+								Coming soon
 							</p>
 						</div>
 					</div>
 				</div>
 			</div>
+		</div>
+	</section>
+	<!-- End feature Area -->
+
+	<!-- Start Schedule Area -->
+	<section class="feature-area section-gap" id="schedule" style="background-color: #F3EAF4">
+
+		<div class="container">
+			<div class="row">
+				<h1 class="projectHed">
+					Schedule
+				</h1>
+			</div>
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="single-feature d-flex flex-row pb-30">
+						<div class="icon">
+							<span class="lnr lnr-rocket"></span>
+						</div>
+						<div class="desc">
+							<h4 class="text-uppercase">Beginner's Deep Learning Workshop</h4>
+							<p>
+								Make a chihuahua vs muffin classifier in PyTorch!
+							</p>
+						</div>
+					</div>
 		</div>
 	</section>
 	<!-- End feature Area -->
